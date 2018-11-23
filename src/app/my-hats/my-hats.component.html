@@ -1,0 +1,17 @@
+
+<table class="table table-hover table-striped table-responsive">   
+  <thead>
+    <tr><td>Id</td>
+    <td>Name</td>
+    <td>Price</td>
+    <td>Image</td></tr>
+  </thead>
+  <tbody>
+<tr *ngFor="let hat of Hats">
+<td>{{hat.Id}}</td>
+<td>{{hat.Name}}</td>
+<td>{{hat.Price}}</td>
+<td>{{hat.Image}}</td>
+    </tr>
+  </tbody>
+</table>
